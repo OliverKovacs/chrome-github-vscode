@@ -1,0 +1,22 @@
+{
+    "name": "Open in VS Code",
+    "description": "Open remote GitHub repositordes in VS Code.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+         "16": "assets/icon_16.png",
+         "32": "assets/icon_32.png",
+         "48": "assets/icon_48.png",
+        "128": "assets/icon_128.png",
+       "1080": "assets/icon_1080.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "action": {},
+    "permissions": [ "tabs", "storage" ]
+}
